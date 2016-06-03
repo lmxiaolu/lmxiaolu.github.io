@@ -1,0 +1,181 @@
+ .m-index {
+  width: 100%;
+  height: 100%;
+ 
+  @include flexbox();
+  @include flex-direction(column);
+  .m-index-container{
+       @include flex();
+       width: 100%;
+       position: relative;
+      spa-view{
+            header {
+    background: $base-color;
+    height: .44rem;
+        ul {
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li:not(:nth-child(2)) {
+        width: .55rem;
+        line-height: .44rem;
+        text-align: center;
+        font-size: .2rem;
+        color: rgba(255,255,255, 0.8);
+      }
+      li:nth-child(2) {
+        @include flex();
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+     img{
+         display: block;
+         width: .4rem;
+         height: .23rem;
+     }
+      }
+    }
+   
+  }
+  nav {
+    height: .45rem;
+     background: #fff;
+      ul {
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li {
+         color: #6d6d6d;
+        @include flex( 2);
+        height: 100%;
+        text-align: center;
+        line-height: .45rem;
+        @include box-sizing(border-box);
+        &.active {
+          border-bottom: solid 0.02rem $base-color;
+           @include flex(1);
+        }
+      }
+    }
+  }
+  section {
+      background: #fff;
+     @include flex();
+    width: 100% ;
+    overflow: hidden;
+     .swip{
+         width: 100%;
+         @include flexbox();
+         height: 1.88rem;
+         #index-swiper {
+            width:100%;
+            height: 100%;
+            img{
+               width:100%;
+               height: 100%;
+               display: block; 
+            }
+            
+        }  
+     }
+     div{
+//        background: #f0eff4;
+         &.special{
+        background: #eff1f0;
+        ul{
+             padding-top:.13rem; 
+            width: 100%;
+              height: 1.67rem;
+               @include flexbox();
+            li{
+                   
+               &:first-child  {
+                   @include flex(3);
+                  img{
+                      display: block;
+                      width: 100%;
+                      height: 1.67rem;
+                  }
+               }
+               &:nth-child(2)  {
+                  @include flex(4);
+                    img{
+                      display: block;
+                      width: 100%;
+                      height: 1.67rem;
+                  }
+               }
+            }
+        }
+         
+     }
+     &.special-2{
+          
+             background: #eff1f0;
+         ul{
+             padding-top:.2rem; 
+             li{
+                 &:first-child img {
+                     width: 100%;
+                     height: .4rem;
+                      
+                 }
+                 &:nth-child(2) img{
+                     width: 100%;
+                     height: 1.76rem;
+                 }
+             }
+         }
+     } 
+     }
+    
+  }
+      }
+  }
+
+  footer {
+      position: relative;
+      z-index: 99999;
+      width: 100%;
+      background:#fff;
+    height: .5rem;
+        ul {
+      width: 100%;
+      height: 100%;
+       background:#fff;
+      @include box-sizing(border-box);
+      @include border(1px 0 0 0, #b0b0b0);
+      @include flexbox();
+      li {
+        position: relative;
+        @include flex();
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        @include flex-direction(column);
+        &.active b,
+        &.active i {
+          color: $base-color !important;
+        }
+        b, i {
+          display: block;
+          color: #d6d6d6;
+          font-weight: normal;
+        }
+        i {
+          font-size: .25rem;
+          line-height: .28rem;
+        }
+        b {
+          font-size: .12rem;
+        }
+  &:nth-child(2) i{
+      font-size: .23rem;
+      padding-top: .06rem;
+  }
+  
+      }
+    }
+    
+}
+}

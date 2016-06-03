@@ -1,0 +1,27 @@
+<div class="m-index">
+  <div class='m-index-container'></div>
+  <footer>
+    <ul>
+      <li class="active">
+        <i class="yo-ico">&#xe730;</i>
+        <b>首页</b>
+      </li>
+      <li >
+        <i class="yo-ico" action-type="goto.diff">&#xe61b;</i>
+        <b>分类</b>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe642;</i>
+        <b>发现</b>
+      </li>
+      <li>
+        <i class="yo-ico" action-type="goto.car">&#xe603;</i>
+        <b>购物车</b>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe6a3;</i>
+        <b>我</b>
+      </li>
+    </ul>
+  </footer>
+</div>
