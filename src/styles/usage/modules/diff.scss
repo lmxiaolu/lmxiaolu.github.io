@@ -19,7 +19,7 @@
            color: #bfbfbf;
             border: 0px;
             border-radius: .03rem;
-            
+
         }
     }
     nav{
@@ -56,20 +56,20 @@
         width: 100%;
         height: 100%;
         ul{
-            
+
                width: 100%;
               height:.93rem;
                @include flexbox();
                 border-bottom: .01rem solid #e4e4e4;
           &:nth-child(5){
-             border-bottom:0; 
+             border-bottom:0;
           }
-            li{  @include flex(); 
+            li{  @include flex();
                 @include flexbox();
-               
+
               > div {
-                  
-                  
+
+
                    @include flex(5);
                    padding-left: .1rem;
                    b{
@@ -77,12 +77,12 @@
                      display: block;
                        width: 100%;
                        height: .35rem;
-                       line-height: .35rem; 
+                       line-height: .35rem;
                         margin-top: .2rem;
                    }
                    div{
                        width: 100%;
-                      @include flexbox();  
+                      @include flexbox();
                       span{
                         margin-right: .03rem;
                        font-size: .12rem;
@@ -92,22 +92,22 @@
                        }
                    }
                    }
-                   
+
                }
-               
+
              i { margin: auto;
                     @include flex(4);
                     img{
-                       
+
                         text-align: center;
 //                      display: block;
                         width: 100%;
                         height: .63rem;
-                      
+
                   }
                }
             }
-           
+
         }
         >p{
             width: 100%;
@@ -122,9 +122,13 @@
                 width: 100%;
                  height: 2.4rem;
             }
-            
+
         }
     }
-    
+    #swiper-right{
+      background: red;
+      width: 100%;
+      height: 100%;
+    }
     }
 }
