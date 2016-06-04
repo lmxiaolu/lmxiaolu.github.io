@@ -29,8 +29,7 @@ SPA.defineView('diff',{
 				$.ajax({
 					// url: '/api/getlivelist.php',
 					url:'/lm/mock/livelist.json',
-
-					success: function (res) {
+       success: function (res) {
 						console.log(res.data);
 						var data = res.data;
 						var tempArr = [];
