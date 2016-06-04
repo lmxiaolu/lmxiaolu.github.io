@@ -27,7 +27,7 @@ SPA.defineView('diff',{
 
 				var vm = this.getVM();
 				$.ajax({
-				url:'/unique/mock/livelist.json',
+				url:'/lm/mock/livelist.json',
 					success: function (res) {
 						console.log(res.data);
 						var data = res.data;
