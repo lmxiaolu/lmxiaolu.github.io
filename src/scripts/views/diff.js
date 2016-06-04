@@ -27,7 +27,9 @@ SPA.defineView('diff',{
 
 				var vm = this.getVM();
 				$.ajax({
-					url: '/api/getlivelist.php',
+					// url: '/api/getlivelist.php',
+					url:'/lm/mock/livelist.json',
+
 					success: function (res) {
 						console.log(res.data);
 						var data = res.data;
