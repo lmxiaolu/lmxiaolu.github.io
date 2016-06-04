@@ -1,7 +1,7 @@
 
 
-require('./lib/spa.min.js');
-require('./lib/swiper-3.3.1.min.js');
+require('/lib/spa.min.js');
+require('/lib/swiper-3.3.1.min.js');
 require('/views/guide.js');
 require('/views/diff.js');
 require('/views/find.js');
