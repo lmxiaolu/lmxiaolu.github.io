@@ -11,8 +11,8 @@
   <section spa-widget="scroll">
      <div class="swiper-container" id='diff-swiper' >
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div>
+                        <div class="swiper-slide" id="swiper-left">
+                    <div>
      <ul>
         <li>
         <div>
@@ -124,15 +124,79 @@
         </li>
       </ul>
     <p></p>
- <div><img src='/lm/images/cheap1.png'></div>
- <div><img src='/lm/images/cheap1.png'></div>
- <div><img src='/lm/images/cheap1.png'></div>
- <div><img src='/lm/images/cheap1.png'></div>
- <div><img src='/lm/images/cheap1.png'></div>
+ <div class="middle" ms-repeat-value="livelist" ><img ms-src="value.imgSrc"/></div>
+
  </div>
                         </div>
                         <div class="swiper-slide" id="swiper-right">
-                          fjdsif
+                      <div>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                      </ul>
+                      </div>
                         </div>
 
                     </div>

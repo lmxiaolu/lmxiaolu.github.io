@@ -1,7 +1,12 @@
 var diffTpl=require('../tpl/diff.string');
 SPA.defineView('diff',{
 	html:diffTpl,
-	plugins:['delegated'],
+	plugins:['delegated',{
+    name: 'avalon',
+    options: function(vm) {
+      vm.livelist = [];
+    }
+  }],
 	 init: {
     indexSwiper: null,
     setActive: function (obj) {
@@ -16,8 +21,25 @@ SPA.defineView('diff',{
        },
 
 	},
- 
+
     bindEvents: {
+			'show': function () {
+
+				var vm = this.getVM();
+				$.ajax({
+					url: '/api/getlivelist.php',
+					success: function (res) {
+						console.log(res.data);
+						var data = res.data;
+						var tempArr = [];
+						for (var i = 0; i < Math.ceil(data.length); i++) {
+							tempArr[i] = data[i];
+						}
+						vm.livelist = tempArr;
+						console.log(tempArr);
+					}
+				});
+			},
     'beforeShow': function () {
       this.indexSwiper = new Swiper('#diff-swiper', {
         loop: false,

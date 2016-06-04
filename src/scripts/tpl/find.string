@@ -1,3 +1,17 @@
+<div class="find-index">
+<header><p>发现</p></header>
+<section spa-widget="scroll">
 <div>
-find....
+
+  <div  class="find-img"> <img src="/lm/images/find1.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find2.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find3.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find4.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find3.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find1.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find2.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find4.png"/></div>
+  <div class="find-img"> <img src="/lm/images/find3.png"/></div>
+</div>
+</section>
 </div>

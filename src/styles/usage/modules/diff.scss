@@ -52,83 +52,129 @@
          @include flex();
           width: 100% ;
           overflow: hidden;
-    div{
+  #diff-swiper{
         width: 100%;
-        height: 100%;
-        ul{
+        height: 100%!important;
 
-               width: 100%;
-              height:.93rem;
-               @include flexbox();
-                border-bottom: .01rem solid #e4e4e4;
-          &:nth-child(5){
-             border-bottom:0;
-          }
-            li{  @include flex();
-                @include flexbox();
+        #swiper-left{
+          width:100%;
+          height: 100%;
+          div{
+            ul{
 
-              > div {
+                   width: 100%;
+                  height:.93rem;
+                   @include flexbox();
+                    border-bottom: .01rem solid #e4e4e4;
+              &:nth-child(5){
+                 border-bottom:0;
+              }
+                li{  @include flex();
+                    @include flexbox();
+
+                  > div {
 
 
-                   @include flex(5);
-                   padding-left: .1rem;
-                   b{
-                       font-size: .14rem;
-                     display: block;
-                       width: 100%;
-                       height: .35rem;
-                       line-height: .35rem;
-                        margin-top: .2rem;
-                   }
-                   div{
-                       width: 100%;
-                      @include flexbox();
-                      span{
-                        margin-right: .03rem;
-                       font-size: .12rem;
-                       color: #d5d5d5;
-                       &:last-child{
-                           margin-right: 0;
+                       @include flex();
+                       padding-left: .1rem;
+                       b{
+                           font-size: .14rem;
+                         display: block;
+                           width: 100%;
+                           height: .35rem;
+                           line-height: .35rem;
+                            margin-top: .2rem;
                        }
+                       div{
+                           width: 100%;
+                          @include flexbox();
+                          span{
+                            margin-right: .03rem;
+                           font-size: .12rem;
+                           color: #d5d5d5;
+                           &:last-child{
+                               margin-right: 0;
+                           }
+                       }
+                       }
+
                    }
+
+                 i { margin: auto;
+                        @include flex( );
+                        img{
+
+                            text-align: center;
+
+                            width:80%;
+                            height: .63rem;
+
+                      }
                    }
+                }
 
-               }
-
-             i { margin: auto;
-                    @include flex(4);
-                    img{
-
-                        text-align: center;
-//                      display: block;
-                        width: 100%;
-                        height: .63rem;
-
-                  }
-               }
             }
+            >p{
+              width: 100%;
+              height: .07rem;
+              background: #f8f8f8;
+            }
+            .middle{
+                 width: 100%;
+
+                padding-bottom: .06rem;
+                 img{
+                     width: 100%;
+                      height: 2.4rem;
+                 }
+
+             }
+          }
+
 
         }
-        >p{
+
+        #swiper-right{
+          width:100%;
+          height: 100%;
+    div{
+           ul{
+             width: 100%;
+             height:。99rem;
+          @include flexbox();
+          li{
             width: 100%;
-            height: .07rem;
-            background: #f8f8f8;
-        }
-        >div{
+            height: .99rem;
+          padding-bottom: .03rem;
+        &:first-child{
+          @include flex(1);
+          i{
             width: 100%;
-//          height: 2.4rem;
-           padding-bottom: .06rem;
+            height: .99rem;
             img{
-                width: 100%;
-                 height: 2.4rem;
+              width: 100%;
+              height: .99rem;
             }
+          }
 
         }
+            &:nth-child(2){
+              width: .03rem;
+              height:.99rem;
+              background: #fff;
+            }
+            &:last-child{
+              @include flex(1);
+              img{
+                width: 100%;
+                height: .99rem;
+              }
+            }
+          }
+           }
+         }
+        }
     }
-    #swiper-right{
-      background: red;
-      width: 100%;
-      height: 100%;
-    }
+
     }
 }

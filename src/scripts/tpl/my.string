@@ -1,3 +1,8 @@
-<div>
-my....
+<div class="my-index">
+  <header> <img src="/lm/images/my.png"/></header>
+  <section id="my-section">
+
+ <img src="/lm/images/my-left.png" id="my-img"/>
+
+  </section>
 </div>

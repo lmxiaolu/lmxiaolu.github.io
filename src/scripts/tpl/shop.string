@@ -1,0 +1,29 @@
+<div class="shop-index">
+<header>
+  <ul>
+    <li action-type="exit"><img src="/lm/images/car.png"/></li>
+      <li> 购物车</li>
+      <li></li>
+  </ul>
+</header>
+<section>
+<div class="empty"></div>
+<div class="car-img">
+  <img src="/lm/images/che.png"  />
+</div>
+<p>
+  您的购物车空空哒
+</p>
+<div class="tiao">
+  <input type="button" name="name" value="挑选商品">
+</div>
+
+</section>
+<footer>
+   <ul>
+     <li>商品金额：￥0</li>
+     <li></li>
+     <li>立即登录</li>
+   </ul>
+</footer>
+</div>

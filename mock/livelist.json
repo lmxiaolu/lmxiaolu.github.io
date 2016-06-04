@@ -1,0 +1,27 @@
+{
+  "ret": true,
+  "errCode": 0,
+  "data": [
+    {
+      "imgSrc": "/lm/images/cheap1.png"
+
+    },
+    {
+      "imgSrc": "/lm/images/cheap2.png"
+
+    },
+    {
+      "imgSrc": "/lm/images/cheap3.png"
+
+    },
+    {
+      "imgSrc": "/lm/images/cheap2.png"
+
+    },
+    {
+      "imgSrc": "/lm/images/cheap1.png"
+
+    }
+
+  ]
+}
