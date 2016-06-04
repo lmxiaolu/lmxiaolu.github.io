@@ -5,8 +5,16 @@
   <title>footballSNS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="/lm/prd/styles/usage/app@c066786c8f73160b3b5ccf02fc8c8b68.css">
+  <script>
+      document.ontouchmove = function(e) {
+          if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+              e.preventDefault();
+          }
+      };
+  </script>
+
 </head>
 <body>
-  <script src="/lm/prd/scripts/app@6924c910a5af2b7af48a09888fddbd20.js"></script>
+  <script src="/lm/prd/scripts/app@200bd66316f3e455ce837787e0b888ee.js"></script>
 </body>
 </html>
