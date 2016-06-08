@@ -11,7 +11,7 @@
   <section>
      <div class="swiper-container" id='diff-swiper' >
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" id="swiper-left">
+                        <div class="swiper-slide" id="swiper-left"  spa-widget="scroll">
                     <div>
      <ul>
         <li>
@@ -72,7 +72,7 @@
         <div>
          <b>速食调味</b>
          <div>
-           <span>速食面</span> <span>果酱</span> 
+           <span>速食面</span> <span>果酱</span>
          </div>
 
         </div>
@@ -128,7 +128,7 @@
 
  </div>
                         </div>
-                        <div class="swiper-slide" id="swiper-right">
+                        <div class="swiper-slide" id="swiper-right" spa-widget="scroll">
                       <div>
                       <ul>
                         <li>
