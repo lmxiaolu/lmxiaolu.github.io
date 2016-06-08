@@ -1,6 +1,6 @@
 <div class='diff-all'>
 <header>
-<input type='text'value='搜索喜欢的宝贝'>
+<input type='text'  placeholder="搜索喜欢的宝贝">
 </header>
 <nav>
      <ul id="index-nav">
@@ -8,10 +8,10 @@
       <li action-type="switch.swiper">品牌</li>
     </ul>
   </nav>
-  <section spa-widget="scroll">
+  <section>
      <div class="swiper-container" id='diff-swiper' >
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" id="swiper-left">
+                        <div class="swiper-slide" id="swiper-left" spa-widget="scroll">
                     <div>
      <ul>
         <li>
@@ -124,11 +124,11 @@
         </li>
       </ul>
     <p></p>
- <div class="middle" ms-repeat-value="livelist" ><img ms-src="value.imgSrc"/></div>
+ <div class="middle" ms-repeat-value="livelist" action-type="goto.thing"><img ms-src="value.imgSrc"/></div>
 
  </div>
                         </div>
-                        <div class="swiper-slide" id="swiper-right">
+                        <div class="swiper-slide" id="swiper-right" spa-widget="scroll">
                       <div>
                       <ul>
                         <li>
@@ -137,13 +137,35 @@
                         </li>
                         <li></li>
                         <li  >
-                          <i><img src="/lm/images/bai1.png" /></i>
+                          <i><img src="/lm/images/bai2.png" /></i>
 
                         </li>
                       </ul>
                       <ul>
                         <li>
-                              <i><img src="/lm/images/bai1.png" /></i>
+                              <i><img src="/lm/images/bai3.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai4.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai5.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai3.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai6.png" /></i>
 
                         </li>
                         <li></li>
@@ -154,12 +176,23 @@
                       </ul>
                       <ul>
                         <li>
-                              <i><img src="/lm/images/bai1.png" /></i>
+                              <i><img src="/lm/images/bai3.png" /></i>
 
                         </li>
                         <li></li>
                         <li  >
-                          <i><img src="/lm/images/bai1.png" /></i>
+                          <i><img src="/lm/images/bai5.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai3.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai4.png" /></i>
 
                         </li>
                       </ul>
@@ -170,7 +203,7 @@
                         </li>
                         <li></li>
                         <li  >
-                          <i><img src="/lm/images/bai1.png" /></i>
+                          <i><img src="/lm/images/bai5.png" /></i>
 
                         </li>
                       </ul>
@@ -181,13 +214,35 @@
                         </li>
                         <li></li>
                         <li  >
-                          <i><img src="/lm/images/bai1.png" /></i>
+                          <i><img src="/lm/images/bai2.png" /></i>
 
                         </li>
                       </ul>
                       <ul>
                         <li>
-                              <i><img src="/lm/images/bai1.png" /></i>
+                              <i><img src="/lm/images/bai3.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai2.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai6.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai4.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai3.png" /></i>
 
                         </li>
                         <li></li>
@@ -196,6 +251,62 @@
 
                         </li>
                       </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai4.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai1.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai6.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai5.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai2.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai4.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai5.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai2.png" /></i>
+
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                              <i><img src="/lm/images/bai2.png" /></i>
+
+                        </li>
+                        <li></li>
+                        <li  >
+                          <i><img src="/lm/images/bai6.png" /></i>
+
+                        </li>
+                      </ul>
+
                       </div>
                         </div>
 

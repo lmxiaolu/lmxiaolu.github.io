@@ -34,7 +34,7 @@
                     <!-- 如果需要分页器 -->
                     <div class="swiper-pagination"></div>
        </div>
-                
+
                 </div>
      <div class='special'>
    <ul>
@@ -51,14 +51,14 @@
      <div class='special-2'>
    <ul>
     <li><img src='/lm/images/tit-top.png'></li>
- <li><img src='/lm/images/hot.png'></li>
+ <li><img src='/lm/images/find5.png'></li>
    </ul>
      </div>
      <div class='special-2'>
    <ul>
     <li><img src='/lm/images/tit-top.png'></li>
- <li><img src='/lm/images/hot.png'></li>
+ <li><img src='/lm/images/find6.png'></li>
    </ul>
      </div>
-    </div> 
+    </div>
   </section>

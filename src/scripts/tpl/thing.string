@@ -1,0 +1,159 @@
+<div class="thing-index">
+ <header>
+   <span action-type="none">
+     <img src="/lm/images/thing1.png" alt="" />
+   </span>
+   <p>
+     【3瓶*500ml】清春矿泉水
+   </p>
+  <i>
+   <img src="/lm/images/thing2.png" alt="" />
+ </i>
+ </header>
+ <section spa-widget="scroll">
+<div>
+  <p>
+    <img src="/lm/images/water.png" alt="" />
+  </p>
+  <div class="my-title">
+<ul id="tit-ul">
+  <li class="tit-li" >
+<p>
+  ￥9.9
+</p>
+<p>
+  原价￥34
+</p>
+<p>
+  <img src="/lm/images/heart.png" alt="" />
+  <i>25</i>
+</p>
+<p>
+
+</p>
+  </li>
+  <li class="tit-li" >
+
+<p>
+   <img src="/lm/images/city.png" alt="" />
+</p>
+<p>
+  新西兰
+</p>
+<p>
+ 【3瓶*500ml】清春矿泉水
+</p>
+<p>
+ </p>
+</li>
+  <li class="tit-li"  >
+<p>
+  <img src="/lm/images/li-3.png" alt="" />
+</p>
+<p>
+  新西兰
+   水
+   矿泉水
+</p>
+<p>
+
+</p>
+  </li>
+</ul>
+  </div>
+  <div class="daren">
+<i><img src="/lm/images/girl.png" alt="" /></i>
+<p>
+  <span>
+    达人说：
+  </span>
+  来自新西兰的天然矿泉水，有南阿尔卑斯山雨水经过70年的净化过滤，形成了的纯净水源。富含碳酸氢盐、钙等天然矿物质，有益于人的消化系统。水瓶可回收，完全不含双酚A。【每个订单限购1份】
+</p>
+  </div>
+  <div class="product">
+<p class="pro-p">
+  <i></i>
+扫货品牌提供
+<i></i>
+</p>
+<ul class="pro-ul">
+  <li>
+    <i><img src="/lm/images/pro1.png" alt="" /></i>
+
+<p>
+  全球直采
+</p>
+  </li>
+  <li>
+    <i><img src="/lm/images/pro2.png" alt="" /></i>
+    <p>
+      原装正品
+    </p>
+  </li>
+  <li>
+<i><img src="/lm/images/pro3.png" alt="" /></i>
+
+    <p>
+      环保包装
+    </p>
+  </li>
+  <li>
+    <i><img src="/lm/images/pro4.png" alt="" /></i>
+    <p>
+    极速送达
+    </p>
+  </li>
+</ul>
+  </div>
+  <div class="pro-last">
+<p>
+  产品规格：
+</p>
+<p>
+  配料：矿泉水
+</p>
+<p>
+  规格：500ml*3瓶
+</p>
+<p>
+  贮存方式：请置于阴凉干燥处保存，避免阳光直射
+</p>
+<img src="/lm/images/ziran.png" alt="" />
+<p>
+  注意事项：
+</p>
+<p>
+1、商品均为实物拍摄，受光线、环境等的影响，不免会有色差，请以收到的实物为准
+</p>
+<p>
+2、产品保质期限仅供参考。具体请以实物为准
+</p>
+<p>
+3、为保证食品安全，开封后请尽快使用
+</p>
+<p>
+  4、产品新老包装随机发送
+ </p>
+  </div>
+  <div class="foot">
+
+  </div>
+</div>
+ </section >
+ <footer>
+   <ul>
+     <li >
+        <i><img src="/lm/images/star.png" /> </i>
+       <b>未收藏</b>
+     </li>
+     <li >
+       <i class="yo-ico" >&#xe603;</i>
+       <b>购物车</b>
+     </li>
+     <li  >
+       <i >￥9.9</i>
+       <b>加入购物车</b>
+     </li>
+   </ul>
+ </footer>
+</div>

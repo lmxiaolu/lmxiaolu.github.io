@@ -19,6 +19,10 @@ SPA.defineView('diff',{
          this.setActive($(e.el));
          this.indexSwiper.slideTo($(e.el).index() );
        },
+			 'goto.thing': function () {
+		        SPA.open('thing');
+
+		     }
 
 	},
 
@@ -27,16 +31,17 @@ SPA.defineView('diff',{
 
 				var vm = this.getVM();
 				$.ajax({
-				url:'/lm/mock/livelist.json',
+					url:'/lm/mock/livelist.json',
+					// url: '/api/getlivelist.php',
 					success: function (res) {
-						console.log(res.data);
+						// console.log(res.data);
 						var data = res.data;
 						var tempArr = [];
 						for (var i = 0; i < Math.ceil(data.length); i++) {
 							tempArr[i] = data[i];
 						}
 						vm.livelist = tempArr;
-						console.log(tempArr);
+						// console.log(tempArr);
 					}
 				});
 			},

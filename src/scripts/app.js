@@ -9,6 +9,7 @@ require('./views/my.js');
 require('./views/home.js');
 require('./views/index.js');
 require('./views/shop.js');
+require('./views/thing.js');
 // 配置视图的信息
 SPA.config({
   indexView: 'guide'
