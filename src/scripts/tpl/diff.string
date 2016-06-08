@@ -11,7 +11,7 @@
   <section>
      <div class="swiper-container" id='diff-swiper' >
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" id="swiper-left" spa-widget="scroll">
+                        <div class="swiper-slide" id="swiper-left">
                     <div>
      <ul>
         <li>
@@ -40,7 +40,7 @@
         <div>
          <b>冲饮谷物</b>
          <div>
-          <span>咖啡</span> <span>谷物</span> <span>茶</span>
+          <span>咖啡</span> <span>谷物</span>
          </div>
 
         </div>
@@ -50,7 +50,7 @@
         <div>
          <b>休闲膨化</b>
          <div>
-           <span>薯片</span> <span>虾片</span><span>海苔</span>
+           <span>薯片</span> <span>虾片</span>
          </div>
 
         </div>
@@ -62,7 +62,7 @@
         <div>
          <b>蜜饯坚果</b>
          <div>
-          <span></s果干pan> <span>蜜饯</span> <span>坚果</span>
+          <span></s果干pan> <span>蜜饯</span>
          </div>
 
         </div>
@@ -72,7 +72,7 @@
         <div>
          <b>速食调味</b>
          <div>
-           <span>速食面</span> <span>果酱</span><span>肠</span>
+           <span>速食面</span> <span>果酱</span> 
          </div>
 
         </div>
@@ -128,7 +128,7 @@
 
  </div>
                         </div>
-                        <div class="swiper-slide" id="swiper-right" spa-widget="scroll">
+                        <div class="swiper-slide" id="swiper-right">
                       <div>
                       <ul>
                         <li>
